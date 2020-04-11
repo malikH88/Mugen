@@ -1,0 +1,131 @@
+[Info]
+name = "Logo&Credit"
+author = "Mkc88r"
+mugenversion = 1.1
+localcoord = 1280,720
+
+[SceneDef]
+spr = Logo.sff
+
+;-------------------------
+ 
+[Scene 0]                    
+fadein.time = 60             ;Fondu Debut
+fadeout.time = 0             ;Fondu Fin
+fadein.col = 0,0,0           ;Fondu Debut Noir (255,255,255 pour blanc)
+fadeout.col = 0,0,0          ;Fondu Fin Noir (255,255,255 pour blanc)
+clearcolor = 0,0,0
+bgm =                        ;Nom Du Fichier Musique
+bgm.loop = 0
+end.time = 692               ;Temps Total De L'intro
+layerall.pos = 0,0           ;Position General Des Sprites
+
+layer0.starttime = 0         ;Temps Depart Du Sprite
+layer0.anim =  0             ;Fond D'écran
+layer0.offset = 0,0          ;Position
+
+;-------------------------
+
+[Begin Action 0]
+
+1,0,0,0,60                   ;ELECBYTE PRESENT
+1,1,0,0,3
+1,2,0,0,3
+1,3,0,0,3
+1,4,0,0,3
+1,5,0,0,340                 
+2,0,0,0,300
+
+;-------------------------
+ 
+[Scene 1]
+fadein.time = 60             ;Fondu Debut
+fadeout.time = 15            ;Fondu Fin
+fadein.col = 0,0,0           ;Fondu Debut Noir (255,255,255 pour blanc)
+fadeout.col = 0,0,0          ;Fondu Fin Noir (255,255,255 pour blanc)
+clearcolor = 0,0,0
+bgm = Mugen.mp3              ;Nom Du Fichier Musique
+bgm.start = 120
+bgm.loop = 0
+end.time = 430               ;Temps Total De L'intro
+layerall.pos = 0,0           ;Position General Des Sprites
+
+layer0.starttime = 0         ;Temps Depart Du Sprite
+layer0.anim =  1             ;Fond D'écran
+layer0.offset = 0,0          ;Position
+
+;-------------------------
+
+[Begin Action 1]
+
+3,0,0,0,120                  ;MUGEN
+3,1,0,0,2
+3,2,0,0,2
+3,3,0,0,2
+3,4,0,0,2
+3,5,0,0,6
+3,6,0,0,2
+3,7,0,0,2
+3,8,0,0,2
+3,9,0,0,2
+3,0,0,0,30
+3,10,0,0,3
+3,11,0,0,3
+3,12,0,0,3
+3,13,0,0,3
+3,14,0,0,3
+3,13,0,0,3
+3,12,0,0,3
+3,11,0,0,3
+3,10,0,0,3
+3,0,0,0,500
+
+;-------------------------
+ 
+[Scene 2]
+fadein.time = 30             ;Fondu Debut
+fadeout.time = 15            ;Fondu Fin
+fadein.col = 0,0,0           ;Fondu Debut Noir (255,255,255 pour blanc)
+fadeout.col = 0,0,0          ;Fondu Fin Noir (255,255,255 pour blanc)
+clearcolor = 0,0,0
+bgm =                        ;Nom Du Fichier Musique
+bgm.loop = 0
+end.time = 360               ;Temps Total De L'intro
+layerall.pos = 0,0           ;Position General Des Sprites
+
+layer0.starttime = 0         ;Temps Depart Du Sprite
+layer0.anim =  2             ;Fond D'écran
+layer0.offset = 0,0          ;Position
+
+;-------------------------
+
+[Begin Action 2]
+
+4,0,0,0,3                    ;GEAR GAMES STUDIO
+4,1,0,0,3
+
+;-------------------------
+
+[Scene 3]
+fadein.time = 30             ;Fondu Debut
+fadeout.time = 30            ;Fondu Fin
+fadein.col = 0,0,0           ;Fondu Debut Noir (255,255,255 pour blanc)
+fadeout.col = 0,0,0          ;Fondu Fin Noir (255,255,255 pour blanc)
+clearcolor = 0,0,0
+bgm =                        ;Nom Du Fichier Musique
+bgm.loop = 0
+end.time = 600               ;Temps Total De L'intro
+layerall.pos = 0,0           ;Position General Des Sprites
+
+layer0.starttime = 0         ;Temps Depart Du Sprite
+layer0.anim =  3             ;Fond D'écran
+layer0.offset = 0,0          ;Position
+
+;-------------------------
+
+[Begin Action 3]
+
+7,0,0,0,4
+7,1,0,0,4
+7,2,0,0,4
+7,2,0,0,4
